@@ -22,20 +22,35 @@
 
 <body>
     <header>
-        <nav class="flex py-2 px-4 justify-between items-center container">
+        <nav class="flex justify-between items-center container">
             <div>
                 <img src="./public/logo.png" alt="logo.png">
             </div>
             <div>
                 <ul class="ull">
-                    <li class="hover"><a href="/">Home <span><i class="fa-solid fa-angle-down"></span></i></a></li>
-                    <li class="hover"><a href="/">Courses <span><i class="fa-solid fa-angle-down"></span></i></a></li>
-                    <li class="hover"><a href="/">Blog <span><i class="fa-solid fa-angle-down"></span></i></a></li>
-                    <li class="hover"><a href="/">Shop <span><i class="fa-solid fa-angle-down"></span></i></a></li>
-                    <li class="hover"><a href="/">Pages <span><i class="fa-solid fa-angle-down"></span></i></a></li>
-                    <li class="hover"><a href="/">Events <span><i class="fa-solid fa-angle-down"></span></i></a></li>
-
+                    <li class="txt-hover"><a href="/">Home <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                    <li class="txt-hover"><a href="/">Courses <span><i class="fa-solid fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="txt-hover"><a href="/">Blog <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                    <li class="txt-hover"><a href="/">Shop <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                    <li class="txt-hover"><a href="/">Pages <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                    <li class="txt-hover"><a href="/">Events <span><i class="fa-solid fa-angle-down"></i></span></a>
+                    </li>
                 </ul>
+            </div>
+
+            <!-- iconbar  -->
+            <div class="flex gap-x-4">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-circle-user"></i>
+            </div>
+            <div>
+                <button class="btn">
+                    <a href="/" class="text-white btn-hover">Login</a>
+                </button>
+
+                <a href="/">Sign up</a>
             </div>
         </nav>
     </header>
