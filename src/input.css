@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.container{
+    @apply mx-auto w-[1320px]
+}
+.hover{
+    @apply  hover:text-[#2AAA94]
+}
+.ull{
+    @apply flex gap-x-4 text-[20px]  text-[#1B2336]
+}
